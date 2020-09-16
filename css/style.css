@@ -38,6 +38,10 @@ button {
     height: 140px;
     text-align: center;
     padding-top: 0.3em;
+    border-color: #000;
+}
+button:hover {
+    border-color: #000;
 }
 .main-content {
     margin-top: 2%;
@@ -53,7 +57,7 @@ button {
     font-size: 0;
 }
 .scorpion:hover:before {
-    content: url(cry-small.png); /* no need for qoutes */
+    content: url(cry-small.png);
     display: block;
 }
 .cry_baby {

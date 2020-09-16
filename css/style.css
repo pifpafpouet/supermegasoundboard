@@ -1,0 +1,30 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans";
+    color: #f90303;
+    background-color: #e3e3e3;
+}
+button {
+    background: rgb(141,255,18);
+    background: linear-gradient(135deg, rgba(141,255,18,1) 27%, rgba(255,46,239,0.579551803631609) 79%);
+    margin: 10px;
+}
+.main-content {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+                                    
+}
+.scorpion {
+    font-size: 10em;
+    text-align: center;
+}
+.scorpion:hover {
+    font-size: 0;
+}
+.scorpion:hover:before {
+    content: url(cry-small.png); /* no need for qoutes */
+    display: block;
+}
+.cry_baby {
+    max-width: 200px;
+}

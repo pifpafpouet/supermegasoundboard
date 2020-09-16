@@ -1,12 +1,43 @@
+@font-face {
+    font-family: 'alpha__clownregular';
+    src: url('../fonts/alphaclown-webfont.woff2') format('woff2'),
+         url('../fonts/alphaclown-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
-    font-family: "Comic Sans MS", "Comic Sans";
-    color: #f90303;
-    background-color: #e3e3e3;
+    background-color: #151515;
+}
+h1 {
+    font-family: "alpha__clownregular";
+    font-size: 8rem;
+}
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
 }
 button {
     background: rgb(141,255,18);
     background: linear-gradient(135deg, rgba(141,255,18,1) 27%, rgba(255,46,239,0.579551803631609) 79%);
     margin: 10px;
+    font-size: 5em;
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    padding-top: 0.3em;
 }
 .main-content {
     margin-top: 2%;
